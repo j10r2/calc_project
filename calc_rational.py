@@ -7,4 +7,3 @@ def rational():
         return num1 * num2
     elif operand == 4:
         return num1 / num2
-rational()
