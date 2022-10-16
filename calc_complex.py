@@ -15,7 +15,7 @@ num2 = complex(x2, y2)
 print(num1)
 print(num2)
 
-def complex(num1,num2,operand):
+def complex(num1, num2, operand):
     if operand == 1:
         return num1 + num2
     elif operand == 2:
@@ -24,5 +24,7 @@ def complex(num1,num2,operand):
         return num1 * num2
     elif operand == 4:
         return num1 / num2
+
+print(res)
 
 
