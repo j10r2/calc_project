@@ -1,4 +1,4 @@
-def rational():
+def rational(num1, num2, operand):
     if operand == 1:
         return num1 + num2
     elif operand == 2:

@@ -1,5 +1,4 @@
-
-def data_log(data, endline): 
+def data_log(data, endline):
 
     with open('log.csv', 'a') as file:
         file.write('{}'.format(data))
