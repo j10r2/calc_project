@@ -1,7 +1,9 @@
-from datetime import datetime as dt
-from time import time 
 
-def data_log(data): 
-    time = dt.now().strftime('%H:%M')
+def data_log(data, endline): 
+
     with open('log.csv', 'a') as file:
-        file.write('{}\n'.format(time, data))
+        file.write('{}'.format(data))
+        if endline == 2:
+           file.write(' \n') 
+        elif endline == 1:
+            file.write(' ')
