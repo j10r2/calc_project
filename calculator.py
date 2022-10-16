@@ -30,7 +30,7 @@ while True:
                          +' = '+str(rat.rational(num1, num2, operand))
                   break
             except:
-                  print('введены некорректные данные, попробуйте ещё раз')
+                  print('введены некорректные данные, попробуйте ещё раз!')
       else:
             try:
                   num1 = complex(input('введите 1-е число в формате 1+2j: '))
@@ -42,6 +42,6 @@ while True:
                          +' = '+str(comp.complex(num1, num2, operand))
                   break
             except:
-                  print('введены некорректные данные, попробуйте ещё раз')
+                  print('введены некорректные данные, попробуйте ещё раз!')
 import logger as lg
 lg.data_log(data, 2)
